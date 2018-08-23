@@ -1,10 +1,16 @@
 .header {
-	border-style: solid;
-	border-width: 2px;
 	margin: 10px;
-	height: ;
 	padding: 10px;
 	position: relative;
+
+}
+
+.cabeca{
+	border-style: solid;
+	border-width: 4px;
+	margin: 10px;
+	height: 400px;
+
 }
 .nav{
 	position: absolute;
@@ -17,37 +23,47 @@
 	 
 }
 
-.barra-lateral{
+.primeiro_tema{
 	border-style: solid;
 	border-width: 2px;
-	margin: 10px;
-	width: 250px;
+	margin: 20px 15px;
+	width: 450px;
+	height: 300px
 
 
 
 }
 
-.barra-principal{
+.segundo_tema{
 	border-style: solid;
 	border-width: 2px;
-	border-p: 10px;
+	margin: 20px 15px;
+	width: 450px;
+	height: 300px
+}
+
+
+.terceiro_tema{
+	border-style: solid;
+	border-width: 2px;
+	margin: 20px 15px;
+	width: 450px;
+	height: 300px
 	
-}
 
-.title{
-	display: list-item;
-	list-style-type: upper-roman;
-	list-style-position: inside;
-	margin: 25px;
-	
-}
-
-.topping{
-	list-style-type: disc;
-	list-style-position: inside;
-	margin: 10px;
 
 }
+
+.quarto_tema{
+	border-style: solid;
+	border-width: 2px;
+	margin: 20px 15px;
+	width: 450px;
+	height: 300px
+
+}
+
+
 #divBusca{
   position: absolute;
   background-color:#2F4F4F;

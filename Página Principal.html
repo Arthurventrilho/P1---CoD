@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang = "pt-br">
-<head>
-	<meta charset="utf-8">
-	<title>Página Principal</title>
-	<link href = "assets/css/reset.css" rel = "stylesheet">
-	<link href = "assets/css/style.css" rel = "stylesheet">
-</head>
-<body>
-	<header class = menu>
-		<nav>
+	<head>
+		<meta charset="utf-8">
+		<title>Página Principal</title>
+		<link href = "reset.css" rel = "stylesheet">
+		<link href = "style_pagina_principal.css" rel = "stylesheet">
+	
+	</head>
+	<body>
+		<header class = "header">
 			<img src="https://www.insper.edu.br/wp-content/themes/insper_responsive/images/insper-preto.png" alt="Insper:Ensino Superior em Negócios, Direito e Engenharia">
-			<img src="assets/img/Casinha.png" alt="Insper:Ensino Superior em Negócios, Direito e Engenharia">
-			<ul>
-				<li>Áreas</li>
-				<li>About Us</li>
-				<li>Search</li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section>
-			<img src="">
-		</section>
-		<section>	
-			<section>
-
-				<h1>Apresentação Expositiva</h1>
-				<img src="">
-				<p>
-					Descrição
-				</p>
-			</section>
-			<section>
+			<nav class= "nav">
+				
 				<ul>
-					<li><a href = "">PF de Desconstruindo a Matéria</a></li>
-					<li><a href = "">Cases de Grandes Desafios de Engenharia</a></li>
-					<li><a href = "">PF de Matemática Multivariada</a></li>
-					<li><a href = "">PF de Matematica da Variação</a></li>
-						</ul>
+					<li class= "menu"><a href="Home.html"></a>Home</li>
+					<li class= "menu"><a href="Areas.html"></a>Áreas</li>
+					<li class= "menu"><a href="About Us.html"></a>About Us</li>
+				</ul>
+				<div id="divBusca">
+	  				<input type="text" id="txtBusca" placeholder="Buscar..."/>
+	  				<img src="assets/img/busca3.png" id="btnBusca" alt="Buscar"/>
+				</div>			
+			</nav>
+		</header>
+		
+		<main>
+			<section class= "cabeca">
+				<h1> foto e textos </h1>
 			</section>
-		</section>
-	</main>
-</body>
-</html>
+				<section>	
+					<section class= "primeiro_tema">
+						<h1>PF de Desconstruindo a Matéria</h1>
+					</section>
+					<section class= "segundo_tema">
+						<h1>Cases de Grandes Desafios de Engenharia</h1>
+					</section>
+					<section class= "terceiro_tema">
+						<h1>Cases de Grandes Desafios de Engenharia</h1>
+					</section>
+					<section class= "quarto_tema">
+						<h1>Cases de Grandes Desafios de Engenharia</h1>
+					</section>
+				</section>			
+		</main>
+	</body>
+	</html>
