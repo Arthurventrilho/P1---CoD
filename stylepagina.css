@@ -1,27 +1,64 @@
+/* barra menu topo */
+
 .header {
 	border-style: solid;
-	border-width: 2px;
-	margin: 10px;
-	height: ;
-	padding: 10px;
+	border-radius: 0.5rem;
+	border-width: 0.125rem;
+	margin: 0.625rem;
+	padding: 0.625rem;
 	position: relative;
 }
+#divBusca{
+  position: absolute;
+  background-color:#2F4F4F;
+  border:solid:0.0625rem;
+  border-radius:0.9375rem;
+  width:18.75rem;
+  left: 50rem;
+  top: -0.9375rem;
+
+}
+ 
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:0.3125rem;
+  font-style:italic;
+  font-size:1.125rem;
+  border:none;
+  height:2rem;
+  width:16.25rem;
+}
+
 .nav{
 	position: absolute;
-	left: 250px;
-	top: 30px;
+	left: 15.625rem;
+	top: 1.875rem;
 }
 .menu{
 	display: inline;
-	margin: 75px;
-	 
+	margin: 9rem;
+	font-size: 1.5rem;
 }
+/*barras menu*/
+
+.principal{
+	display: flex;
+	flex-direction: column;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+/* barra lateral menu*/
 
 .barra-lateral{
 	border-style: solid;
-	border-width: 2px;
-	margin: 10px;
-	width: 250px;
+	border-width: 0.125rem;
+	margin: 0.625rem;
+	width: 33.625rem;
+	border-radius: 1rem;
+
 
 }
 
@@ -29,47 +66,56 @@
 	display: list-item;
 	list-style-type: upper-roman;
 	list-style-position: inside;
-	margin: 25px;
+	margin: 1.5625rem;
 	
 }
 
 .topping{
 	list-style-type: disc;
 	list-style-position: inside;
-	margin: 10px;
+	margin: 0.625rem;
 
 }
-#divBusca{
-  position: absolute;
-  background-color:#2F4F4F;
-  border:solid 1px;
-  border-radius:15px;
-  width:300px;
-  left: 800px;
-  top: -15px;
+
+/*barra central menu*/
+
+.barra-central{
+	border-style: solid;
+	border-width: 0.125rem;
+	margin: 0.625rem;
+	width: 15.625rem;
+	
 
 }
- 
-#txtBusca{
-  float:left;
-  background-color:transparent;
-  padding-left:5px;
-  font-style:italic;
-  font-size:18px;
-  border:none;
-  height:32px;
-  width:260px;
+
+.titulo{
+	font-size: 3rem;
+	font-style: bold;
+	text-decoration: underline;
+	margin: 1.5rem 0.23rem 3rem;
 }
 
 
+.topico{
+	font-size: 2rem;
+	margin: 1.1rem 2rem 0.75rem;
+}
 
+.paragrafo{
+	font-size: 1.2rem;
+	margin: 0.75rem 2rem 0.5rem 3rem;
+}
 
+.lista{
+	list-style-type: disc;
+	list-style-position: inside;
+	margin: 0.75rem 2rem 0.5rem 3rem; 
 
-
-
-
-
-
+}
+.ordenada{
+	margin:0.75rem 2rem 0.5rem 4rem; 
+	list-style-type: decimal-leading-zero;
+}
 
 
 
