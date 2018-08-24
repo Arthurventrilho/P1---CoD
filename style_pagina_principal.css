@@ -47,7 +47,17 @@
 
 }
 
+.caixote_D{
+	justify-content: flex-start;
+	
 
+}
+
+.caixote_E{
+	justify-content: flex-start;
+	flex-direction: row-reverse;
+	
+}
 
 .caixotinho{
 	display: flex;
