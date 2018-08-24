@@ -1,108 +1,88 @@
-.header {
-	margin: 10px;
-	padding: 10px;
-	position: relative;
+.principal{
+	margin: 0 auto;
+	display: grid;
+	background-color: red;
 
 }
 
 .cabeca{
-	border-style: solid;
-	border-width: 4px;
-	margin: 10px;
-	height: 400px;
-
-}
-.nav{
-	position: absolute;
-	left: 250px;
-	top: 30px;
-}
-.menu{
-	display: inline;
-	margin: 75px;
-	 
-}
-
-.primeiro_tema{
-	border-style: solid;
-	border-width: 2px;
-	margin: 20px 15px;
-	width: 450px;
-	height: 300px
-
-
+	display: flex;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	margin-top: 1rem;
+	background-color: grey;
 
 }
 
-.segundo_tema{
-	border-style: solid;
-	border-width: 2px;
-	margin: 20px 15px;
-	width: 450px;
-	height: 300px
+.cabeca img{
+	width: 100%;
+
+}
+
+.tema-link_D, .tema-link_E{
+	display: flex;
+	margin: 1rem;
+	padding: 1rem;
+	background-color: blue;
+	align-items: center;
+}
+
+.tema-link_D{
+	justify-content: flex-start;
+}
+
+.tema-link_E{
+	justify-content: flex-start;
+	flex-direction: row-reverse;
+}
+
+.caixote_D, .caixote_E{
+	display: flex;
+	flex-direction: row; 
+	align-items: center;
+	background-color: brown;
+	margin: 1rem;
+	padding: 1rem;
+	width: 50%;
+
 }
 
 
-.terceiro_tema{
-	border-style: solid;
-	border-width: 2px;
-	margin: 20px 15px;
-	width: 450px;
-	height: 300px
+
+.caixotinho{
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+	background-color: brown;
+
+
+}
+
+.caixa-links{
+	margin: 1rem;
+	padding: 1rem;
+	background-color: green;
+
+}
+
+.title-caixote{
+	margin-bottom: 1rem;
+
+}
+
+.descricao, .figure {
+
+    width: 100%;
+    height: 100%;
+}
+
+.descricao{
+	padding: 1rem;
+	top: 1rem;
 	
 
-
 }
 
-.quarto_tema{
-	border-style: solid;
-	border-width: 2px;
-	margin: 20px 15px;
-	width: 450px;
-	height: 300px
-
+.figure img {
+    max-width: 100%;
 }
-
-
-#divBusca{
-  position: absolute;
-  background-color:#2F4F4F;
-  border:solid 1px;
-  border-radius:15px;
-  width:300px;
-  left: 800px;
-  top: -15px;
-
-}
- 
-#txtBusca{
-  float:left;
-  background-color:transparent;
-  padding-left:5px;
-  font-style:italic;
-  font-size:18px;
-  border:none;
-  height:32px;
-  width:260px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
