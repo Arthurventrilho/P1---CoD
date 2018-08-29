@@ -10,7 +10,7 @@
 #divBusca{
   position: absolute;
   background-color:#2F4F4F;
-  border:solid:0.0625rem;
+  border:solid;
   border-radius:0.9375rem;
   width:18.75rem;
   left: 50rem;

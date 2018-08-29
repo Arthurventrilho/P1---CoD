@@ -11,7 +11,7 @@
 #divBusca{
   position: absolute;
   background-color:#2F4F4F;
-  border:solid:0.0625rem;
+  border:solid;
   border-radius:0.9375rem;
   width:18.75rem;
   left: 50rem;
@@ -99,7 +99,7 @@
 .titulo{
 	font-family: 'EB Garamond', serif;
 	font-size: 3rem;
-	font-style: bold;
+	font-weight: bold;
 	text-decoration: underline;
 	margin: 1.5rem 0.23rem 3rem;
 }
