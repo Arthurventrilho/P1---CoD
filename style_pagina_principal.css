@@ -1,4 +1,5 @@
 .header {
+	
 	border-style: solid;
 	border-radius: 0.5rem;
 	border-width: 0.125rem;
@@ -34,6 +35,7 @@
 	top: 1.875rem;
 }
 .menu{
+	font-family: 'EB Garamond', serif;
 	display: inline;
 	margin: 6rem;
 	font-size: 1.5rem;
@@ -116,17 +118,20 @@
 }
 
 .title-caixote{
+	font-family: 'EB Garamond', serif;
+	font-size: 2rem;
 	margin-bottom: 1rem;
 
 }
 
 .descricao, .figure {
-
     width: 100%;
     height: 100%;
 }
 
 .descricao{
+	font-family: 'Lora', serif;
+	font-size: 1.3rem;
 	padding: 1rem;
 	top: 1rem;
 	
@@ -136,3 +141,10 @@
 .figure img {
     max-width: 100%;
 }
+
+
+.links{
+	font-family: 'Lora', serif;
+	font-size: 1rem;
+}
+

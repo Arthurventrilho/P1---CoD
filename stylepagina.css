@@ -36,6 +36,7 @@
 	top: 1.875rem;
 }
 .menu{
+	font-family: 'EB Garamond', serif;
 	display: inline;
 	margin: 9rem;
 	font-size: 1.5rem;
@@ -43,6 +44,7 @@
 /*barras menu*/
 
 .principal{
+	
 	display: flex;
 	flex-direction: column;
 	flex-direction: row;
@@ -62,7 +64,9 @@
 
 }
 
-.title{
+.title{ 
+	font-family: 'EB Garamond', serif;
+	font-size:1.4rem;
 	display: list-item;
 	list-style-type: upper-roman;
 	list-style-position: inside;
@@ -71,6 +75,9 @@
 }
 
 .topping{
+	font-family: 'Lora', serif;
+	line-height: 1.2rem;
+	font-size: 0.9rem;
 	list-style-type: disc;
 	list-style-position: inside;
 	margin: 0.625rem;
@@ -80,6 +87,7 @@
 /*barra central menu*/
 
 .barra-central{
+	
 	border-style: solid;
 	border-width: 0.125rem;
 	margin: 0.625rem;
@@ -89,6 +97,7 @@
 }
 
 .titulo{
+	font-family: 'EB Garamond', serif;
 	font-size: 3rem;
 	font-style: bold;
 	text-decoration: underline;
@@ -97,23 +106,30 @@
 
 
 .topico{
+	font-family: 'EB Garamond', serif;
 	font-size: 2rem;
 	margin: 1.1rem 2rem 0.75rem;
 }
 
 .paragrafo{
+	font-family: 'Lora', serif;
 	font-size: 1.2rem;
+	line-height: 1.5rem;
 	margin: 0.75rem 2rem 0.5rem 3rem;
 }
 
 .lista{
+	font-family: 'Lora', serif;
+	font-size: 1.2rem;
 	list-style-type: disc;
 	list-style-position: inside;
 	margin: 0.75rem 2rem 0.5rem 3rem; 
 
 }
 .ordenada{
-	margin:0.75rem 2rem 0.5rem 4rem; 
+	font-family: 'Lora', serif;
+	font-size: 1.2rem;
+	margin:1rem 2rem 0.5rem 4rem; 
 	list-style-type: decimal-leading-zero;
 }
 
