@@ -7,6 +7,7 @@
 	margin: 0.625rem;
 	padding: 0.625rem;
 	position: relative;
+	background-color: #C00026;
 }
 #divBusca{
   position: absolute;
@@ -40,6 +41,7 @@
 	display: inline;
 	margin: 9rem;
 	font-size: 1.5rem;
+
 }
 /*barras menu*/
 
@@ -49,7 +51,7 @@
 	flex-direction: column;
 	flex-direction: row;
 	justify-content: space-around;
-
+	background-color: rgba(196, 191, 196);
 }
 
 /* barra lateral menu*/
@@ -60,6 +62,7 @@
 	margin: 0.625rem;
 	width: 33.625rem;
 	border-radius: 1rem;
+	background-color: rgba(205, 167, 167);
 
 
 }
