@@ -1,0 +1,238 @@
+{
+	"Usuário":{
+		"Carr":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		},
+		"CoD":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		}
+		"Inov":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		},
+		"Startup":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		}
+
+	},
+	"Programação":{
+		"DSoft":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		},
+		"CiD":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		}
+
+	},
+	"Prototipagem":{
+		"Aciona":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		},
+		"EstMet":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		}
+		"DSoft":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		},
+		"CiD":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		}
+
+	},
+	"Programação":{
+		"DSoft":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		},
+		"CiD":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		}
+
+	},
+	"Apresentação Expositiva":{
+		"ModSim":{
+			"Titulo": "Modelagem e Simulacao do mundo fisico",
+
+			"materia": "Modelagem e Simulcao do Mundo Fisico",
+
+			"prfessores": ["Fábio Pelicano", "Paulina Achurra", "Fábio Sismotto El Hage"],
+
+			"descricao": "O foco deste projeto é a modelagem de sistemas mecânicos – “mecânicos” no sentido comumente utilizado na Física, ou seja, o estudo do movimento de corpos macroscópicos. Este modelo será composto de sistemas de equações diferenciais, obtidas a partir do uso de diagramas de corpo livre.",
+
+			"conhecimentos": ["x", "y", "z"],
+
+			"objetivos": ["Criar modelos de diferentes tipos de sistemas, usando diferentes tipos de abstrações", "Implementar solução numérica de modelos de sistemas dinâmicas usando a linguagem de programação Python", "Utilizar as técnicas mais comuns de validação de modelos a partir de dados dos sistemas reais", "Elaborar conclusões a partir do comportamento observado para os modelos simulados", "Comunicar oralmente, com auxilio de um pôster ou slides, conteudo técnico"]
+		},
+		"GDE":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		},
+		"DescoMat":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		}
+		"MatMult":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		},
+		"MatVar":{
+			"Titulo": "",
+
+			"materia": "",
+
+			"prfessores": [],
+
+			"descricao": "",
+
+			"conhecimentos": [],
+
+			"objetivos": []
+		}
+
+	}
+}
