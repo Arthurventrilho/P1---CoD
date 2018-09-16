@@ -48,9 +48,8 @@
 .principal{
 	
 	display: flex;
-	flex-direction: column;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: left;
 	background-color: rgb(196, 191, 196);
 }
 
@@ -60,9 +59,19 @@
 	border-style: solid;
 	border-width: 0.125rem;
 	margin: 0.625rem;
-	width: 33.625rem;
+	width: 25%;
 	border-radius: 1rem;
 	background-color: rgb(205, 167, 167);
+}
+
+.conteudo{
+	display: flex;
+	flex-direction: column;
+	margin: 0.625rem;
+	border-width: 0.125rem;
+	justify-content: center;
+	width: 75%;
+	border-radius: 1rem;
 
 
 }
