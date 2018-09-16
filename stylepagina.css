@@ -51,7 +51,7 @@
 	flex-direction: column;
 	flex-direction: row;
 	justify-content: space-around;
-	background-color: rgba(196, 191, 196);
+	background-color: rgb(196, 191, 196);
 }
 
 /* barra lateral menu*/
@@ -62,7 +62,7 @@
 	margin: 0.625rem;
 	width: 33.625rem;
 	border-radius: 1rem;
-	background-color: rgba(205, 167, 167);
+	background-color: rgb(205, 167, 167);
 
 
 }
