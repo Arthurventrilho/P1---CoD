@@ -57,7 +57,7 @@
       "titulo" : "Projeto Final de Ciência dos Dados"
     },
     "DesSoft" : {
-      "conhecimentos" : [ "Conceitos Básicos de Algoritmos; Técnicas de Projeto de Software; Fundamentos de Programação e Linguagens de Programação (variáveis, expressões, comandos, estruturas de decisão e estruturas de repetição, manipulação de dados estruturados, funções e classes); Resolução Algorítmica de Problemas; Desenvolvimento de Programas; Linguagens de Programação; Técnicas de Planejamento e Gerenciamento de Software; Documentação de projetos de Software.", ],
+      "conhecimentos" : [ "Conceitos Básicos de Algoritmos; Técnicas de Projeto de Software; Fundamentos de Programação e Linguagens de Programação (variáveis, expressões, comandos, estruturas de decisão e estruturas de repetição, manipulação de dados estruturados, funções e classes); Resolução Algorítmica de Problemas; Desenvolvimento de Programas; Linguagens de Programação; Técnicas de Planejamento e Gerenciamento de Software; Documentação de projetos de Software." ],
       "descricao" : "(muda)",
       "materia" : "Design de Software",
       "objetivos" : [ "1. Desenvolver programas de computador.", "2.  Identificar e programar estratégias computacionais de resolução de problemas práticos.", "3.  Atuar em uma equipe gerenciada por métodos ágeis." ],
@@ -67,7 +67,7 @@
   },
   "Proto" : {
     "Aciona" : {
-      "conhecimentos" : [ "Conceitos fundamentais de circuitos elétricos. Regime permanente senoidal. Diodos e transistores. Amplificadores operacionais. Capacitores. Circuitos de primeira ordem. Filtros passa-baixa e passa-alta. Circuitos de segunda ordem. Modulação por largura de pulso. Motor de corrente contínua com escovas.", ],
+      "conhecimentos" : [ "Conceitos fundamentais de circuitos elétricos. Regime permanente senoidal. Diodos e transistores. Amplificadores operacionais. Capacitores. Circuitos de primeira ordem. Filtros passa-baixa e passa-alta. Circuitos de segunda ordem. Modulação por largura de pulso. Motor de corrente contínua com escovas."],
       "descricao" : "(muda)",
       "materia" : "Acionamentos Elétricos",
       "objetivos" : [ "Ao final deste curso, o aluno será capaz de:", "1. Modelar matematicamente circuitos elétricos de primeira e segunda ordem;", "2.  Analisar diagramas de circuitos elétricos;", "3.  Simular circuitos elétricos;",
