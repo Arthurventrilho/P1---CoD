@@ -1,0 +1,138 @@
+{
+  "ApExpo" : {
+    "DesMat" : {
+      "conhecimentos" : [ "A", "B" ],
+      "descricao" : "str",
+      "materia" : "(muda)",
+      "objetivos" : [ "X", "Y", " Z", "W" ],
+      "professores" : [ "A", "B" ],
+      "titulo" : "Projeto Final de Desconstruindo a Matéria"
+    },
+    "GDE" : {
+      "conhecimentos" : [ "Neutralidade da produção científica e tecnológica. Determinismo tecnológico. Construção social da ciência e da tecnologia. Metodologia científica. Ciência, tecnologia e sociedade. Ética, ciência e tecnologia. Relação entre avanço científico-tecnológico e desenvolvimento econômico." ],
+      "descricao" : ["Case 1: Descoberta do DNA: Abrindo a Caixa Preta;", "Case 2: O papel do Patriot na Guerra do Golfo", "Case 3: Terceira Revolução Industrial e Impressora 3D", "Case 4: Grandes construções, sonhos e Quimeras",
+                      "Case 5: Energia: Valor econômico, ambiental e social (Petróleo)", "Case 6: Usos sociais da tecnologia e da energia", "Case 7: Tecnologia e Gênero."],
+      "materia" : "Grandes Desafios da Engenharia",
+      "objetivos" : [ "Ao final do curso o aluno deverá ser capaz de:", "Entender e explicar as relações interdisciplinares entre ciência, tecnologia e sociedade;", 
+                      "Comparar e prever os efeitos de diferentes escolhas tecnológicas em distintos contextos sociais e econômicos;", "Analisar e avaliar os usos sociais da tecnologia à luz de temas contemporâneos."],
+      "professores" : [ "FERNANDO RIBEIRO LEITE NETO", "Sérgio Roberto Cardoso" ],
+      "titulo" : "Cases de Grandes Desafios da Engenharia"
+    },
+    "MatMult" : {
+      "conhecimentos" : [ "E", "R" ],
+      "descricao" : "str",
+      "materia" : "Matemática Multivariada",
+      "objetivos" : [ "S", "D" ],
+      "professores" : [ "V", "E" ],
+      "titulo" : "Projeto Final de Matemática Multivariada"
+    },
+    "MatVar" : {
+      "conhecimentos" : [ "Cálculo Diferencial e Integral com funções de uma variável: introdução, taxa de variação, limite, derivadas, integrais. Resolução analítica de equações diferenciais ordinárias. Álgebra Linear e a resolução analítica de sistemas de equações diferenciais. Desenvolvimento da autonomia em relação ao aprendizado de conteúdos matemáticos." ],
+      "descricao" : "(muda)",
+      "materia" : "Matemática da Variação",
+      "objetivos" : [ "Ao final do curso, o aluno deve ser capaz de:", "1. Quantificar, interpretar e expressar algébrica e graficamente as taxas de variac¸a~o média e instanta^nea de uma grandeza em relac¸a~o a outra (OA1).", 
+                      "2. Interpretar e calcular o valor acumulado de uma variável dependente com a alterac¸a~o do valor da variável independente (OA2).", "3. Utilizar os conceitos e ferramentas vistos no curso para criar modelos de situac¸o~es da realidade, envolvendo principalmente equac¸o~es diferenciais, com o objetivo de estabelecer previso~es e tomar deciso~es (OA3)", 
+                      "4. Utilizar ferramentas da A´lgebra Linear para resolver modelos matemáticos originados da caracterizac¸a~o de sistemas dina^micos (OA4).", "5. Aprender a aprender matemática, ou seja, deve desenvolver autonomia, em relac¸a~o ao conhecimento matemático, para buscar fontes de estudo e selecionar métodos que tornem seu aprendizado mais eficiente (OA5)."],
+      "professores" : [ "ANGELICA TURAÇA", "Prof" ],
+      "titulo" : "Projeto Final de Matemática da Variação"
+    },
+    "ModSim" : {
+      "conhecimentos" : [ "Modelagem matemática discreta e contínua de sistemas dinâmicos de 1a e 2a ordem. Simulação numérica de modelos de sistemas dinâmicos usando a linguagem Python. Princípios de metodologia científica. Desenvolvimento da habilidade de comunicação oral. Introdução ao planejamento de projetos." ],
+      "descricao" : "(muda)",
+      "materia" : "Modelagem e Simulação do Mundo Físico",
+      "objetivos" : [ "Ao final do curso, o aluno deve ser capaz de:", "1. Criar modelos de diferentes tipos de sistemas, usando diferentes estratégias de abstração.", "2. Implementar solução numérica de modelos de sistemas dinâmicos usando a linguagem de programação Python.",
+                      "3. Utilizar técnicas comuns de validação de modelos a partir de dados dos sistemas reais correspondentes.", "4. Elaborar conclusões a partir do comportamento observado para os modelos simulados.", "5. Comunicar oralmente um conteúdo técnico, com auxílio de um cartaz e/ou apresentação de slides" ],
+      "professores" : [ "Fabio Pelicano", "Prof" ],
+      "titulo" : "Projeto Final de Modelagem e Simulação do Mundo Físico"
+    }
+  },
+  "Prog" : {
+    "CDD" : {
+      "conhecimentos" : [ "Estatística descritiva uni e bidimensional, Tipos de variáveis, Medidas Resumo de Centralidade e Dispersão, Diagramas para visualização dos dados; Análise exploratória de dados; Abertura de bases de dados, pré-processamento, filtragem e cruzamento de bases de dados; Teoria da probabilidade; Modelos probabilísticos para variáveis aleatórias discretas e contínuas; Distribuições amostrais de média, proporção e variância; Intervalos de confiança para parâmetros de interesse; Inferência estatística paramétrica; Inferência não paramétrica baseada em reamostragem; Introdução à classificação; Regressão linear simples e múltipla." ],
+      "descricao" : "(muda)",
+      "materia" : "Ciência dos Dados",
+      "objetivos" : [ "Elaborar análises exploratórias de dados (univariadas e multivariadas), utilizando ferramentas estatísticas e computacionais adequadas.", "2. Selecionar informações de bancos de dados, tratá-los e prepará-los para processamento.",
+                      "3. Especificar as distribuições de probabilidades adequadas para as variáveis quantitativas discretas e contínuas.", "4. Conduzir testes inferenciais adequados que possam dar base à tomada de decisão.", "5. Analisar relações entre as variáveis, utilizando ferramentas estatísticas inferenciais adequadas."],
+      "professores" : [ "FABIO ROBERTO DE MIRANDA", "Fabio Ayres", "Prof" ],
+      "titulo" : "Projeto Final de Ciência dos Dados"
+    },
+    "DesSoft" : {
+      "conhecimentos" : [ "Conceitos Básicos de Algoritmos; Técnicas de Projeto de Software; Fundamentos de Programação e Linguagens de Programação (variáveis, expressões, comandos, estruturas de decisão e estruturas de repetição, manipulação de dados estruturados, funções e classes); Resolução Algorítmica de Problemas; Desenvolvimento de Programas; Linguagens de Programação; Técnicas de Planejamento e Gerenciamento de Software; Documentação de projetos de Software.", ],
+      "descricao" : "(muda)",
+      "materia" : "Design de Software",
+      "objetivos" : [ "1. Desenvolver programas de computador.", "2.  Identificar e programar estratégias computacionais de resolução de problemas práticos.", "3.  Atuar em uma equipe gerenciada por métodos ágeis." ],
+      "professores" : [ "FABIO ROBERTO DE MIRANDA", "Fabio Ayres", "Prof"],
+      "titulo" : "Projeto Final de Design de Software"
+    }
+  },
+  "Proto" : {
+    "Aciona" : {
+      "conhecimentos" : [ "Conceitos fundamentais de circuitos elétricos. Regime permanente senoidal. Diodos e transistores. Amplificadores operacionais. Capacitores. Circuitos de primeira ordem. Filtros passa-baixa e passa-alta. Circuitos de segunda ordem. Modulação por largura de pulso. Motor de corrente contínua com escovas.", ],
+      "descricao" : "(muda)",
+      "materia" : "Acionamentos Elétricos",
+      "objetivos" : [ "Ao final deste curso, o aluno será capaz de:", "1. Modelar matematicamente circuitos elétricos de primeira e segunda ordem;", "2.  Analisar diagramas de circuitos elétricos;", "3.  Simular circuitos elétricos;",
+                      "4. Projetar um circuito elétrico para o acionamento de cargas de natureza variada utilizando a estratégia de modulação por largura de pulso (PWM);", "5. Selecionar componentes a serem utilizados nos projetos valendo-se de datasheets e fontes de informação fornecidas pelos fabricantes." ],
+      "professores" : [ "CARLOS EDUARDO DE BRITO NOVAES", "Prof" ],
+      "titulo" : "Projeto Final de Acionamentos Elétricos"
+    },
+    "Job" : {
+      "conhecimentos" : [ "Processo do design, desenho de formas funcionais (sketching), desenho assistido por computador (CAD), técnicas de fabricação digital (CAM), prototipagem, interação com o usuário, validação de um protótipo." ],
+      "descricao" : "(muda)",
+      "materia" : "Natureza do Design",
+      "objetivos" : [ "Aprender a mexer nas máquinas do Fab Lab (Milena, Shotboot, 3D, Laser)" ],
+      "professores" : [ "DANIEL GUZZO DA COSTA / VICTOR CUSSIOL MACUL", "Prof" ],
+      "titulo" : "Girafa do Job Rotation"
+    },
+    "Meteo" : {
+      "conhecimentos" : [ "A", "B" ],
+      "descricao" : "(muda)",
+      "materia" : "Instrumentação e Medição",
+      "objetivos" : [ "X", "Y" ],
+      "professores" : [ "Fabio Bobrow", "Prof" ],
+      "titulo" : "Estação Metereológica"
+    },
+    "ModCont" : {
+      "conhecimentos" : [ "X", "(Y)" ],
+      "descricao" : "(muda)",
+      "materia" : "(muda)",
+      "objetivos" : [ "1", "2" ],
+      "professores" : [ "prof", "prof" ],
+      "titulo" : "Projeto Final de Modelagem e Controle"
+    }
+  },
+  "Usu" : {
+    "Carro" : {
+      "conhecimentos" : [ "X", "Y" ],
+      "descricao" : "(muda)",
+      "materia" : "Natureza do Design",
+      "objetivos" : [ "1", "2" ],
+      "professores" : [ "DANIEL GUZZO DA COSTA / VICTOR CUSSIOL MACUL" ],
+      "titulo" : "Melhoria para carroças de catadores"
+    },
+    "CoDes" : {
+      "conhecimentos" : [ "Empatia com usuários; conhecimento do contexto e as pessoas; design colaborativo; usabilidade e testes de usabilidade; acessibilidade; prototipação e iteração; métodos ágeis; habilidades interpessoais; processos de desenvolvimento de software; padrões para interface; definição e métodos de avaliação; componentes: gráficos e sons; a natureza da interação com o usuário e ambientes virtuais; interação humano-computador." ],
+      "descricao" : "(muda)",
+      "materia" : "Co-Design de Aplicativos",
+      "objetivos" : [ "1. Analisar usuários a partir de entrevistas e hipóteses.", "2. Sintetizar questões de projeto a partir de análises de usuários.", "3. Criar conceitos de aplicativo a partir de questões de projeto.",
+                      "4. Aplicar ferramentas de design gráfico e tecnologias de front-end web em prototipação digital.", "5. Avaliar protótipos digitais a partir de personas e cenários." ],
+      "professores" : [ "MARCELO HASHIMOTO", "prof" ],
+      "titulo" : "Projeto Final de Co-Design de Aplicativos"
+    },
+    "Inov" : {
+      "conhecimentos" : [ "X", "Y" ],
+      "descricao" : "(muda)",
+      "materia" : "(muda)",
+      "objetivos" : [ "1", "2" ],
+      "professores" : [ "prof", "prof" ],
+      "titulo" : "Inovação Incremental para Empresas Existentes"
+    },
+    "Start" : {
+      "conhecimentos" : [ "R", "E" ],
+      "descricao" : "(muda)",
+      "materia" : "(materia)",
+      "objetivos" : [ "1", "2" ],
+      "professores" : [ "prof", "prof" ],
+      "titulo" : "Modelo de Negócio para Startup Nova"
+    }
+  }
+}
