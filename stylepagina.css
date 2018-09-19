@@ -36,12 +36,24 @@
 /* barra lateral menu*/
 
 .barra-lateral{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	border-style: solid;
 	border-width: 0.125rem;
 	margin: 0.625rem;
 	width: 25%;
 	border-radius: 1rem;
 	background-color: rgb(205, 167, 167);
+	max-height: 65rem;
+}
+
+.divisor{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+
 }
 
 .conteudo{
@@ -62,9 +74,12 @@
 	display: list-item;
 	list-style-type: upper-roman;
 	list-style-position: inside;
+	height: 20%;
 	margin: 1.5625rem;
-	
+
 }
+
+
 
 .topping{
 	font-family: 'Lora', serif;
