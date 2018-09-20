@@ -1,25 +1,50 @@
 /* barra menu topo */
 
+.tudo{
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(196, 191, 196);
+	min-width: 1000px;
+}
+
 .header {
+	display: flex;
+	flex-direction: row;
 	border-style: solid;
 	border-radius: 0.5rem;
 	border-width: 0.125rem;
 	margin: 0.625rem;
 	padding: 0.625rem;
-	position: relative;
+
+
 	background-color: #C00026;
 }
 
+.uber {
+	width: 20%;
+	max-height: 100%;
+
+
+}
+
+.uber img{
+	max-width: 100%;
+
+
+}
 
 .nav{
-	position: absolute;
-	left: 15.625rem;
-	top: 1.875rem;
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	border-style: solid;
+	border-width: 0.125rem;
+	border-radius: 0.5rem;
+	max-height: 100%;
+	
 }
 .menu{
 	font-family: 'EB Garamond', serif;
-	display: inline;
-	margin: 9rem;
 	font-size: 1.5rem;
 
 }
