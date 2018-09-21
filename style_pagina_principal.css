@@ -1,26 +1,54 @@
+.tudo{
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(196, 191, 196);
+	min-width: 1000px;
+}
+
 .header {
+	display: flex;
+	flex-direction: row;
 	border-style: solid;
 	border-radius: 0.5rem;
 	border-width: 0.125rem;
 	margin: 0.625rem;
 	padding: 0.625rem;
-	position: relative;
+
+
 	background-color: #C00026;
 }
 
-.nav{ 
-	position: absolute;
-	left: 15.625rem;
-	top: 1.875rem;
-	width: 100%
+.uber {
+	width: 20%;
+	max-height: 100%;
+
 
 }
-.menu{
-	font-family: 'EB Garamond', serif;
-	display: inline;
-	margin: 5rem;
-	font-size: 1.5rem;
+
+.uber img{
+	max-width: 100%;
+
+
 }
+
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 80%;
+
+
+	
+}
+.menu{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.5rem;
+
+} 
+
 .principal{
 	margin: 0 auto;
 	display: grid;
