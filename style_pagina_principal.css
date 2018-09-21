@@ -13,8 +13,6 @@
 	border-width: 0.125rem;
 	margin: 0.625rem;
 	padding: 0.625rem;
-
-
 	background-color: #C00026;
 }
 
@@ -68,7 +66,7 @@
 
 }
 
-.tema-link_D, .tema-link_E{
+.tema-link_D, .tema-link_E, .tema-link-F{
 	border-style: solid;
 	border-radius: 0.5rem;
 	border-width: 0.125rem;
@@ -165,25 +163,50 @@
 
 
 @media (max-width: 360px){
+	.tudo{
+		display: flex;
+		flex-direction: column;
+		background-color: rgb(196, 191, 196);
+		min-width: 100%;
+	}
 	.header {
-	border-style: solid;
-	border-radius: 0.5rem;
-	border-width: 0.125rem;
-	margin: 0.625rem;
-	padding: 1.3rem;
-	position: relative;
-	background-color: #C00026;
+		position: fixed;
+		display: flex;
+		flex-direction: row;
+		border-style: solid;
+		border-radius: 0.5rem;
+		border-width: 0.125rem;
+		margin: 1.2rem;
+		padding: 0.625rem;
+		background-color: #C00026;
+	
+	
+	}
+	.uber {
+	width: 40%;
+	max-height: 100%;
+
+	}
+
+	.uber img{
+	max-width: 100%;
+
+
 	}
 	.menu{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
 		font-family: 'EB Garamond', serif;
-		display: inline;
-		margin: 1rem;
 		font-size: 1.5rem;
+
 	}
 	.nav{ 
-		position: absolute;
-		left: .625rem;
-		top: 4rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 100%;
+		
 	}
 	.cabeca{
 		flex-direction: column;
@@ -208,6 +231,24 @@
 		width: 75%
 
 	}
+	.title-caixote{
+	font-family: 'EB Garamond', serif;
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+	}
+	.descricao{
+	font-family: 'Lora', serif;
+	font-size: 1.5rem;
+	padding: 1rem;
+	top: 1rem;
+	
+	}	
+	.links{
+	font-family: 'Lora', serif;
+	font-size: 1.2rem;
+	}
+
+
 }	
 
 
