@@ -175,21 +175,24 @@
 		flex-direction: row;
 		border-style: solid;
 		border-radius: 0.5rem;
-		border-width: 0.125rem;
-		margin: 1.2rem;
-		padding: 0.625rem;
+		border-width: 0rem;
+		margin: 0rem;
+		padding: 0rem;
 		background-color: #C00026;
+		width: 100%;
+		height: 10%;
 	
 	
 	}
 	.uber {
-	width: 40%;
-	max-height: 100%;
+	width: 0%;
+	max-height: 0%;
+
 
 	}
 
 	.uber img{
-	max-width: 100%;
+	max-width: 0%;
 
 
 	}
@@ -213,6 +216,7 @@
 		align-self: center;
 	}
 	.principal{
+		margin-top: 15%;
 		margin-left: 0 auto;
 		display: grid;
 		grid-template-columns: 1fr;
