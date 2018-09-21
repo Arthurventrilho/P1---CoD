@@ -1,0 +1,175 @@
+.header {
+	border-style: solid;
+	border-radius: 0.5rem;
+	border-width: 0.125rem;
+	margin: 0.625rem;
+	padding: 0.625rem;
+	position: relative;
+	background-color: #C00026;
+}
+
+}
+.nav{ 
+	position: absolute;
+	left: 14.625rem;
+	top: .5rem;
+
+}
+.menu{
+	font-family: 'EB Garamond', serif;
+	display: inline;
+	margin: 1rem;
+	font-size: 1.5rem;
+}
+.principal{
+	margin: 0 auto;
+	display: grid;
+
+}
+
+.cabeca{
+	display: flex;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	margin-top: 1rem;
+
+}
+
+.cabeca img{
+	width: 100%;
+
+}
+
+.tema-link_D, .tema-link_E{
+	border-style: solid;
+	border-radius: 0.5rem;
+	border-width: 0.125rem;
+	display: flex;
+	margin: 1rem;
+	padding: 1rem;
+	align-items: center;
+	background-color: rgb(196, 191, 196);
+}
+
+.tema-link_D{
+	justify-content: flex-start;
+}
+
+.tema-link_E{
+	justify-content: flex-start;
+	flex-direction: row-reverse;
+}
+
+.caixote_D, .caixote_E{
+	border-style: solid;
+	border-radius: 0.5rem;
+	border-width: 0.125rem;
+	display: flex;
+	flex-direction: row; 
+	align-items: center;
+	margin: 1rem;
+	padding: 1rem;
+	width: 50%;
+	background-color: rgb(205, 167, 167);
+
+}
+
+.caixote_D{
+	justify-content: flex-start;
+	
+
+}
+
+.caixote_E{
+	justify-content: flex-start;
+	flex-direction: row-reverse;
+	
+}
+
+.caixotinho{
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+
+
+}
+
+.caixa-links{
+	margin: 1rem;
+	padding: 1rem;
+
+}
+
+.title-caixote{
+	font-family: 'EB Garamond', serif;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+
+}
+
+.descricao, .figure {
+    width: 100%;
+    height: 100%;
+}
+
+.descricao{
+	font-family: 'Lora', serif;
+	font-size: 1.3rem;
+	padding: 1rem;
+	top: 1rem;
+	
+
+}
+
+.figure img {
+    max-width: 100%;
+}
+
+
+.links{
+	font-family: 'Lora', serif;
+	font-size: 1rem;
+}
+
+.tudo{
+	background-color: white;
+}
+
+
+@media (max-width: 360px){
+	.cabeca{
+		flex-direction: column;
+		align-self: center;
+	}
+	.principal{
+		margin-left: 0 auto;
+		display: grid;
+		grid-template-columns: 1fr;
+		display: column;
+
+	}
+	.tema-link_D, .tema-link_E{
+		flex-direction: column;
+		
+	}
+	.caixote_D, .caixote_E{
+		flex-direction: column; 
+		align-items: center;
+		margin: 1rem;
+		padding: 1rem;
+		width: 75%
+
+	}
+}	
+
+
+
+
+
+
+
+
+
+
+
+
