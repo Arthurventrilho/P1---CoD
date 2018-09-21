@@ -99,10 +99,11 @@
 	font-family: 'EB Garamond', serif;
 	font-size:1.4rem;
 	display: list-item;
-	list-style-type: upper-roman;
+	list-style-type: disc;
 	list-style-position: inside;
 	height: 20%;
 	margin: 1.5625rem;
+
 
 }
 
@@ -115,6 +116,7 @@
 	list-style-type: disc;
 	list-style-position: inside;
 	margin: 0.625rem;
+	margin-left: 10%;
 
 }
 
