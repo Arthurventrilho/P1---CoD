@@ -36,14 +36,16 @@
 .nav{
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 	width: 80%;
-	border-style: solid;
-	border-width: 0.125rem;
-	border-radius: 0.5rem;
-	max-height: 100%;
+
+
 	
 }
 .menu{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	font-family: 'EB Garamond', serif;
 	font-size: 1.5rem;
 
@@ -97,10 +99,11 @@
 	font-family: 'EB Garamond', serif;
 	font-size:1.4rem;
 	display: list-item;
-	list-style-type: upper-roman;
+	list-style-type: disc;
 	list-style-position: inside;
 	height: 20%;
 	margin: 1.5625rem;
+
 
 }
 
@@ -113,6 +116,7 @@
 	list-style-type: disc;
 	list-style-position: inside;
 	margin: 0.625rem;
+	margin-left: 10%;
 
 }
 
