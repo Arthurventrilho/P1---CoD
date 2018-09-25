@@ -107,8 +107,6 @@
 
 }
 
-
-
 .topping{
 	font-family: 'Lora', serif;
 	line-height: 1.2rem;
@@ -169,7 +167,124 @@
 	list-style-type: decimal-leading-zero;
 }
 
+@media (max-width: 360px){
+	.tudo{
+		display: flex;
+		flex-direction: column;
+		background-color: rgb(196, 191, 196);
+		min-width: 100%;
+	}
+	.header {
+		position: fixed;
+		display: flex;
+		flex-direction: row;
+		border-style: solid;
+		border-radius: 0.5rem;
+		border-width: 0rem;
+		margin: 0rem;
+		padding: 0rem;
+		background-color: #C00026;
+		width: 100%;
+		height: 10%;
+	}
+	.principal{
+		
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+		background-color: rgb(196, 191, 196);
+		margin-top: 10%;
+	}
 
+	.barra-lateral{
+		display: block;
+		position:absolute;
+		flex-direction: column;
+		justify-content: space-around;
+		border-style: solid;
+		border-width: 0.125rem;
+		margin: 0.625rem;
+		width: 90%;
+		border-radius: 1rem;
+		background-color: rgb(205, 167, 167);
+		left: -100%;
+		transition: left .5s;
+
+	}
+	.uber {
+		width: 0%;
+		max-height: 0%;
+
+
+	}
+	.nav: hover + .barra-lateral{
+	   left: 0;
+ 	   
+
+	}
+	.uber img{
+		max-width: 0%;
+
+
+	}
+	
+	.nav{ 
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 100%;
+	}
+
+	.menu{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		font-family: 'EB Garamond', serif;
+		font-size: 1.5rem;
+
+	}
+	.title{ 
+		font-family: 'EB Garamond', serif;
+		font-size:1.4rem;
+		display: list-item;
+		list-style-type: disc;
+		list-style-position: inside;
+
+	}
+	.titulo{
+		font-family: 'EB Garamond', serif;
+		font-size: 3rem;
+		font-weight: bold;
+		text-decoration: underline;
+		margin: 1.5rem 0.23rem 3rem;
+	}
+	.topico{
+		font-family: 'EB Garamond', serif;
+		font-size: 1.5rem;
+		margin: 1.1rem 2rem 0.75rem;
+	}
+	.paragrafo{
+		font-family: 'Lora', serif;
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+		margin: 0.75rem 2rem 0.5rem 3.5rem;
+	}
+
+	.lista{
+		font-family: 'Lora', serif;
+		font-size: 1.2rem;
+		list-style-type: disc;
+		list-style-position: inside;
+		margin: 0.75rem 2rem 0.5rem 3rem; 
+
+	}
+	.ordenada{
+		font-family: 'Lora', serif;
+		font-size: 1.2rem;
+		margin:1rem 2rem 0.5rem 4rem; 
+		list-style-type: decimal-leading-zero;
+	}
+}
 
 
 
