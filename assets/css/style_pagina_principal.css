@@ -162,7 +162,7 @@
 }
 
 
-@media (max-width: 360px){
+@media (max-width: 400px){
 	.tudo{
 		display: flex;
 		flex-direction: column;
