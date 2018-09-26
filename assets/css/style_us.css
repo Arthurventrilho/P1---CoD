@@ -15,6 +15,12 @@
 	padding: 0.625rem;
 	background-color: #C00026;
 }
+.ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	}
 
 .uber {
 	width: 20%;
