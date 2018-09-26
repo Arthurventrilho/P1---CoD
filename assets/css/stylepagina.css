@@ -193,7 +193,7 @@
 		flex-direction: row;
 		justify-content: left;
 		background-color: rgb(196, 191, 196);
-		margin-top: 10%;
+		margin-top: 17%;
 	}
 
 	
@@ -235,7 +235,7 @@
 	}
 	.titulo{
 		font-family: 'EB Garamond', serif;
-		font-size: 3rem;
+		font-size: 2.5rem;
 		font-weight: bold;
 		text-decoration: underline;
 		margin: 1.5rem 0.23rem 3rem;
@@ -245,6 +245,16 @@
 		font-size: 1.5rem;
 		margin: 1.1rem 2rem 0.75rem;
 	}
+	.conteudo{
+		border-style: solid;
+		width: 100%;
+		border-radius: 0.5rem;
+		border-width: 0.125rem;
+		margin: 0.625rem;
+		padding: 0.625rem;
+
+	}
+
 	.paragrafo{
 		font-family: 'Lora', serif;
 		font-size: 1.2rem;

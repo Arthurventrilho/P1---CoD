@@ -229,14 +229,18 @@
 	}
 	.tema-link_D, .tema-link_E{
 		flex-direction: column;
+		padding-top: 0rem;
+		top: 0rem;
+		border-width: 0.125rem;
 		
 	}
 	.caixote_D, .caixote_E{
 		flex-direction: column; 
 		align-items: center;
-		margin: 1rem;
+		margin: 0rem;
 		padding: 1rem;
-		width: 75%
+		width: 100%;
+		border-width: 0rem;
 
 	}
 	.title-caixote{
