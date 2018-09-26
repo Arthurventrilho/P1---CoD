@@ -1,0 +1,155 @@
+.tudo{
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(196, 191, 196);
+	min-width: 1000px;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	border-style: solid;
+	border-radius: 0.5rem;
+	border-width: 0.125rem;
+	margin: 0.625rem;
+	padding: 0.625rem;
+	background-color: #C00026;
+}
+
+.uber {
+	width: 20%;
+	max-height: 100%;
+
+
+}
+
+.uber img{
+	max-width: 100%;
+
+
+}
+
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 80%;
+	
+}
+.menu{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.5rem;
+
+}
+.corpo{
+
+	display: flex;
+	flex-direction: column;
+	padding: 3%;
+}
+.titulo{
+	font-family: 'EB Garamond', serif;
+	font-size: 3rem;
+	margin: 2%;
+
+}
+.texto{
+	margin: 2%;
+	font-family: 'Lora', serif;
+	font-size: 1.3rem;
+
+}
+.lista{
+	margin: 2%;
+
+}
+.nome{
+	list-style-type: disc;
+	list-style-position: inside;
+	font-family: 'Lora', serif;
+	font-size: 1.3rem;
+
+}
+
+@media (max-width: 400px){
+	.tudo{
+		display: flex;
+		flex-direction: column;
+		background-color: rgb(196, 191, 196);
+		min-width: 100%;
+	}
+	.header {
+		position: fixed;
+		display: flex;
+		flex-direction: row;
+		border-style: solid;
+		border-radius: 0.5rem;
+		border-width: 0rem;
+		margin: 0rem;
+		padding: 0rem;
+		background-color: #C00026;
+		width: 100%;
+		height: 10%;
+	
+	
+	}
+	.uber {
+	width: 0%;
+	max-height: 0%;
+
+
+	}
+
+	.uber img{
+	max-width: 0%;
+
+
+	}
+	.menu{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		font-family: 'EB Garamond', serif;
+		font-size: 1.5rem;
+
+	}
+	.nav{ 
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 100%;
+		
+	}
+	.corpo{
+		display: flex;
+		flex-direction: column;
+		margin-top: 20%;
+		padding: 5%;
+	}
+	.titulo{
+		font-family: 'EB Garamond', serif;
+		font-size: 2rem;
+		margin: 2%;
+
+	}
+	.texto{
+		margin: 2%;
+		font-family: 'Lora', serif;
+		font-size: 1.3rem;
+
+	}
+	.lista{
+		margin: 2%;
+
+	}
+	.nome{
+		list-style-type: disc;
+		list-style-position: inside;
+		font-family: 'Lora', serif;
+		font-size: 1.3rem;
+		
+	}
+	}
