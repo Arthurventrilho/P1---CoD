@@ -42,7 +42,7 @@
 
 	
 }
-.menu{
+.menu , .menu1{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -196,32 +196,14 @@
 		margin-top: 10%;
 	}
 
-	.barra-lateral{
-		display: block;
-		position:absolute;
-		flex-direction: column;
-		justify-content: space-around;
-		border-style: solid;
-		border-width: 0.125rem;
-		margin: 0.625rem;
-		width: 90%;
-		border-radius: 1rem;
-		background-color: rgb(205, 167, 167);
-		left: -100%;
-		transition: left .5s;
-
-	}
+	
 	.uber {
 		width: 0%;
 		max-height: 0%;
 
 
 	}
-	.nav: hover + .barra-lateral{
-	   left: 0;
- 	   
-
-	}
+	
 	.uber img{
 		max-width: 0%;
 
@@ -283,6 +265,26 @@
 		font-size: 1.2rem;
 		margin:1rem 2rem 0.5rem 4rem; 
 		list-style-type: decimal-leading-zero;
+	}
+	
+	.barra-lateral{
+		display: block;
+		position:absolute;
+		flex-direction: column;
+		justify-content: space-around;
+		border-style: solid;
+		border-width: 0.125rem;
+		margin: 0.625rem;
+		width: 90%;
+		border-radius: 1rem;
+		background-color: rgb(205, 167, 167);
+		left: -100%;
+		transition: left .5s;
+
+	}
+	.menu1:hover + .barra-lateral{
+	   left: 0;
+ 	  
 	}
 }
 
